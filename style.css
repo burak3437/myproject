@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.main-header{
+    background-color: cadetblue;
+    padding: 8px 16px;
+    width: 100%;
+}
+.main-header-logo{
+    text-decoration: none;
+    color:#fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.main-header>a:hover{
+    color:black;
+}
+.main_nav_items{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main-nav-item{
+    display: inline-block;
+    margin:0 10px;
+}
+.main-nav{
+    display: inline-block;
+    width: calc(100% - 56px);
+    text-align: right;
+}
+.main-nav-item a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+.main-nav-item a:hover{
+    color:crimson;
+}
+#parrot{
+    background: url('resim/gettyimages-825528034-612x612.jpg');
+    background-position: right top;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+.row
+{
+    margin-bottom: 40px;
+}
+#kimiz{
+    text-align: center;
+}
+.col-4{
+    width: calc(25% - 8px);
+    display: inline-block;
+    
+}
+#kimiz .row>h3{
+    font-size: 30px;
+}
+.col-2{
+    display: inline-block;
+    width: 50%;
+    height: 350px;
+    background-color:cadetblue;
+
+}
+.promotion__left{
+    background: url('resim/indir.jpg');
+    background-size: cover;
+    background-position: right top;
+}
+.promotion__right{
+    padding: 40px;
+    vertical-align: top;
+}
+.promotion__right h2{
+    color:white;
+    font-size:30px;
+}
+.promotion__right a{
+    text-decoration: none;
+    color:white;
+    background-color:darkorange;
+    text-align: center;
+    font-size: 14px;
+    padding: 7px 15px;
+    margin-top: 30px;
+    border: 2px solid cadetblue;
+    display: inline-block;
+    border-radius: 8px;
+}
+.promotion__right a:hover{
+   background-color: white;
+  
+    color:cadetblue;
+}
